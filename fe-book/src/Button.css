@@ -1,0 +1,22 @@
+.shared-btn {
+  background-color: #4caf50; /* Warna latar belakang hijau */
+  color: white; /* Warna teks putih */
+  border: none; /* Tanpa border */
+  padding: 15px 32px; /* Padding atas/bawah dan kiri/kanan */
+  text-align: center; /* Teks di tengah */
+  text-decoration: none; /* Tanpa garis bawah */
+  display: inline-block; /* Mengatur tampilan inline */
+  font-size: 16px; /* Ukuran font */
+  border-radius: 8px; /* Sudut membulat */
+  transition: background-color 0.3s, transform 0.2s; /* Transisi untuk efek */
+  cursor: pointer; /* Kursor tangan saat hover */
+}
+
+.shared-btn:hover {
+  background-color: #45a049; /* Warna latar belakang saat hover */
+  transform: scale(1.05); /* Memperbesar sedikit saat hover */
+}
+
+.shared-btn:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat ditekan */
+}

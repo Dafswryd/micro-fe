@@ -1,0 +1,60 @@
+.book-table {
+  width: 100%;
+  border-collapse: collapse; /* Menggabungkan border */
+  margin: 20px; /* Margin untuk tabel */
+  background-color: #f1f5f9; /* Warna latar belakang tabel */
+}
+
+.header-row {
+  background-color: #e2e8f0; /* Warna latar belakang header */
+}
+
+.header-cell {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #cbd5e1; /* Border untuk header */
+}
+
+.book-row {
+  border: 2px solid #cbd5e1; /* Border untuk baris buku */
+}
+
+.book-cell {
+  padding: 10px;
+  text-align: center; /* Menyusun teks di tengah */
+}
+
+.action-cell {
+  display: flex; /* Menggunakan flex untuk tata letak tombol */
+  justify-content: center; /* Menyusun tombol di tengah */
+  gap: 10px; /* Jarak antar tombol */
+}
+
+.delete-button {
+  background-color: #f56565; /* Warna latar belakang merah untuk tombol delete */
+  color: white; /* Warna teks putih */
+  border: none; /* Tanpa border */
+  padding: 5px 10px; /* Padding tombol */
+  border-radius: 5px; /* Sudut membulat */
+  cursor: pointer; /* Kursor tangan saat hover */
+  transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+.delete-button:hover {
+  background-color: #c53030; /* Warna saat hover */
+}
+
+.update-button {
+  background-color: #48bb78; /* Warna latar belakang hijau untuk tombol update */
+  color: white; /* Warna teks putih */
+  border: none; /* Tanpa border */
+  padding: 5px 10px; /* Padding tombol */
+  border-radius: 5px; /* Sudut membulat */
+  cursor: pointer; /* Kursor tangan saat hover */
+  transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+.update-button:hover {
+  background-color: #2f855a; /* Warna saat hover */
+}
